@@ -1,0 +1,8 @@
+nose2
+coverage
+flake8==3.8.0
+flake8-html
+junit2html
+antlr4-python3-runtime==4.11.1
+antlr4-tools==0.2
+hypothesis
