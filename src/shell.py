@@ -14,7 +14,7 @@ class History():
         self.history_index = history_index
 
     def browse_command_history(self, direction):
-        _ = readline.get_line_buffer()
+        # _ = readline.get_line_buffer()
         if direction == "up":
             if self.history_index > 0:
                 self.history_index -= 1
